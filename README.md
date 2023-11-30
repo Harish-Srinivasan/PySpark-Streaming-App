@@ -6,7 +6,11 @@ Twitter API -> Tweepy/TCP Socket -> Spark streaming (Sentiment Analysis) -> Kafk
 
 ## Steps to implement:
 
-Start the zookeeper server:    .\zookeeper-server-start.bat ....\config\zookeeper.properties inside kafka\bin\windows
+1. Start the zookeeper server:
+
+```
+.\zookeeper-server-start.bat ....\config\zookeeper.properties inside kafka\bin\windows
+```
 
 Start the Kafka server:    .\kafka-server-start.bat ....\config\server.properties inside kafka\bin\windows
 
