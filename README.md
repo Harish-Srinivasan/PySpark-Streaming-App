@@ -4,6 +4,10 @@ This PySpark streaming application reads data from X (Twitter) and performs sent
 
 Twitter API -> Tweepy/TCP Socket -> Spark streaming (Sentiment Analysis) -> Kafka topic -> ELK
 
+## Flowchart:
+
+![Flowchart diagram](/flowchart.png)
+
 ## Steps to implement:
 
 1. Start the zookeeper server:
